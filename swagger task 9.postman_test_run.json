@@ -1,0 +1,181 @@
+{
+	"id": "6a11af72-8107-47d2-9aad-6a131c9b95c3",
+	"name": "swagger task 7",
+	"timestamp": "2023-03-18T14:41:35.895Z",
+	"collection_id": "26065606-67a9deff-929e-4464-9d0a-e5adc6a49035",
+	"folder_id": 0,
+	"environment_id": "26065606-f7fe4bd3-e263-4b23-8d0c-47b7fe6de376",
+	"totalPass": 14,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-18T14:41:29.586Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "87cb113b-d115-4933-b776-bb395fdecd31",
+			"name": "200 and OK",
+			"url": "https://petstore.swagger.io/v2/swagger.json",
+			"time": 1512,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1512
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "89560be1-a21f-4513-9dce-0e0bff6163d0",
+			"name": "Body responses",
+			"url": "https://petstore.swagger.io/v2/swagger.json",
+			"time": 507,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that host is petstore.swagger.io": true,
+				"Verify that jsonData displays the version": true,
+				"verify that tag name is displayed": true,
+				"Yverify that url is displayed": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that host is petstore.swagger.io": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that jsonData displays the version": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that tag name is displayed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Yverify that url is displayed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				507
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that host is petstore.swagger.io": true,
+					"Verify that jsonData displays the version": true,
+					"verify that tag name is displayed": true,
+					"Yverify that url is displayed": true
+				}
+			]
+		},
+		{
+			"id": "8ee23765-8e0c-4752-96e0-32b41c570882",
+			"name": "environment",
+			"url": "https://petstore.swagger.io/v2/swagger.json",
+			"time": 342,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that host is petstore.swagger.io": true,
+				"Verify that jsonData displays the version": true,
+				"verify that tag name is displayed": true,
+				"Yverify that url is displayed": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that host is petstore.swagger.io": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that jsonData displays the version": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that tag name is displayed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Yverify that url is displayed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				342
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that host is petstore.swagger.io": true,
+					"Verify that jsonData displays the version": true,
+					"verify that tag name is displayed": true,
+					"Yverify that url is displayed": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2361,
+	"collection": {
+		"requests": [
+			{
+				"id": "87cb113b-d115-4933-b776-bb395fdecd31",
+				"method": "GET"
+			},
+			{
+				"id": "89560be1-a21f-4513-9dce-0e0bff6163d0",
+				"method": "GET"
+			},
+			{
+				"id": "8ee23765-8e0c-4752-96e0-32b41c570882",
+				"method": "GET"
+			}
+		]
+	}
+}
